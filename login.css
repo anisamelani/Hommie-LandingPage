@@ -1,0 +1,104 @@
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    align-items:center;
+    border:2px solid #a8a197;
+    width:350px;
+    display:flex;
+    margin-left:38%;
+    margin-top:100px;
+}
+
+.login a {
+    text-decoration: none;
+}
+
+.form {
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+.form-border {
+    background: #a8a197;
+    height: 1px;
+    width: 100%;
+}
+
+.form-content {
+    background: #fbfbfb;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+}
+
+.login input{
+    background-color:transparent;
+    width:250px;
+}
+
+.login label{
+    margin-top:20px;
+    font-size:15px;
+    color:#45403b;
+}
+
+.login .judul{
+    font-size:25px;
+    color:#45403b;
+}
+
+.login a{
+    margin-top:10px;
+    font-size:13px;
+    display:flex;
+    justify-content:flex-end;
+    color:#45403b;
+}
+
+.login button{
+    width:300px;
+    margin-top:20px;
+    border:2px solid #a8a197;
+    background-color:transparent;
+}
+
+.login button:hover{
+    background-color:#a8a197;
+}
+
+.login button a{
+    display:flex;
+    justify-content:center;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-size:15px;
+    color:#;
+}
+
+.login button a:hover{
+    color:white;
+}
+
+.login .register{
+    display:flex;
+    justify-content:center;
+    margin-top:5px;
+    margin-bottom:40px;
+}
+
+.login a:hover{
+    color:#a8a197;
+}
+
+.login span{
+    color:#45403b;
+}
+
+.login .register{
+    color:#a8a197;
+}
